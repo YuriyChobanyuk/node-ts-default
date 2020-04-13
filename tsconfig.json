@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es6",
+    "target": "ES2017",
     "removeComments": false,
     "preserveConstEnums": true,
     "noLib": false,
@@ -13,7 +13,12 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "declaration": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "types": [
+      "reflect-metadata"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "exclude": [
     "node_modules",

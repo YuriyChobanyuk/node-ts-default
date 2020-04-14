@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start:dev": "nodemon src/index.ts",
+    "dev": "nodemon src/server.ts",
+    "start:dev": "nodemon src/server.ts",
     "build": "webpack --config src/config/webpack.prod",
     "start": "node dist/index.bundle.js"
   },
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13"

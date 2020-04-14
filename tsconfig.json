@@ -20,15 +20,5 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "lib",
-    "tests",
-    "@types",
-    "unit-tests",
-    "client",
-    "prettier.config.js",
-    "ecosystem.config.js"
-  ]
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }

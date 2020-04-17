@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   mode: 'production',
   entry: {
-    index: './src/index.ts'
+    index: './src/server.ts'
   },
   target: 'node',
   output: {
